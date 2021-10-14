@@ -11,8 +11,8 @@ Original file is located at
 
 import pandas as pd
 
-# ! wget https://archive.ics.uci.edu/ml/machine-learning-databases/00360/AirQualityUCI.zip
-# ! unzip AirQualityUCI.zip
+! wget https://archive.ics.uci.edu/ml/machine-learning-databases/00360/AirQualityUCI.zip
+! unzip AirQualityUCI.zip
 
 data = pd.read_csv('/content/AirQualityUCI.csv', sep = ";")
 data.head()
